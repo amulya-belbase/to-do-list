@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./style.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque&family=Libre+Baskerville&family=Lobster+Two&family=Montserrat&family=Plus+Jakarta+Sans&family=Poppins:wght@500&family=Prompt&family=Roboto&display=swap"
+    rel="stylesheet" />
+  <title>Dom Manipulation</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="todo">
+      <div class="upper_container">
+        <h1>To-do List</h1>
+        <div class="entry_part">
+          <input type="text" id="task_input" placeholder="Add your entry" />
+          <button onclick="addTask()" class="submit_button">Add Task</button>
+        </div>
+        <div class="list_header">
+          <div>Tasks</div>
+          <div>Status</div>
+          <div>Delete</div>
+        </div>
+        <div id="usertasks">
+          <!-- <div class="job_class">
+            <div>Run to the store</div>
+            <div class="status_check_false"></div>
+            <button>Delete</button>
+          </div> -->
+
+        </div>
+      </div>
+
+      <div class="lower_container">
+        <h1>Completed Tasks</h1>
+        <div class="completedtasks">
+          <div class="list_header">
+            <div>Tasks</div>
+            <div>Status</div>
+            <div>Delete</div>
+          </div>
+          <div id="completed_task_list">
+            <!-- <div class="job_class">
+
+            <div>Run</div>
+            <div class="status_check_true"></div>
+            <button>Delete</button> -->
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+  </div>
+  <script src="./script.js"></script>
+</body>
+
+</html>
